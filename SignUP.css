@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+}
+body{
+    width:100%;
+    /*background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);*/
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+}
+
+.left{
+    margin: auto;
+    border: 1px solid black;
+    padding: 50px 20px 50px 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(
+  45deg,
+  hsl(0deg 0% 96%) 0%,
+  hsl(54deg 15% 95%) 7%,
+  hsl(55deg 26% 94%) 13%,
+  hsl(55deg 35% 94%) 20%,
+  hsl(55deg 42% 93%) 27%,
+  hsl(55deg 48% 92%) 33%,
+  hsl(55deg 53% 92%) 40%,
+  hsl(56deg 57% 91%) 47%,
+  hsl(49deg 65% 91%) 53%,
+  hsl(40deg 77% 91%) 60%,
+  hsl(32deg 85% 92%) 67%,
+  hsl(26deg 89% 92%) 73%,
+  hsl(20deg 89% 92%) 80%,
+  hsl(14deg 83% 93%) 87%,
+  hsl(8deg 73% 93%) 93%,
+  hsl(0deg 59% 92%) 100%
+);
+}
+
+label{
+    padding: 3px;
+}
+
+input{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.right{
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.sign{
+    margin: 10px;
+}
+
+span{
+    color: rgb(240, 91, 6);
+}
+
+input{
+    padding: 10px;
+    border-radius: 5px;
+    width: 300px;
+}
+button{
+    padding: 10px;
+    border-radius: 5px;
+    width: 320px;
+    margin: 10px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+h1{
+    padding: 5px;
+}
+
+.fullname{
+    position: relative;
+    width: 100%;
+}
+
+.fullname input{
+    padding-left: 30px;
+    width: calc(100%-30px);
+}
+.fullname i{
+    position: absolute;
+    top: 55%;
+    padding-left: 10px;  
+}
+
+.email{
+    position: relative;
+    width: 100%;
+}
+
+.email input{
+    padding-left: 30px;
+    width: calc(100%-30px);
+}
+.email i{
+    position: absolute;
+    top: 55%;
+    padding-left: 10px;  
+}
+
+.lock{
+    position: relative;
+    width: 100%;
+}
+
+.lock input{
+    padding-left: 30px;
+    width: calc(100%-30px);
+}
+.lock i{
+    position: absolute;
+    top: 55%;
+    padding-left: 10px;  
+}
